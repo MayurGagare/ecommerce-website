@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--section one-->
+    <section class="section-one section">
+        <nav>
+            <div class="logo">stilo.</div>
+            <ul class="navlinks" id="navlinks">
+                <li>
+                    <a href="" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="#product">Product</a>
+                </li>
+                <li>
+                    <a href="#Arivals">Arivals</a>
+                </li>
+                <li>
+                    <a href="#offer">Offers</a>
+                </li>
+                <li>
+                    <a href="#collection">Collection</a>
+                </li>
+                
+            </ul>
+
+            
+
+            <div class="hamburger" id="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        
+        <header>
+            <div class="image-container">
+                <img src="Watch Images/omega blue.png" alt="Watch" class="header-image">
+            </div>
+            <div class="content">
+                <h1 class="header-heading">Pure Luxury</h1>
+                <h2 class="product-name">Blue Omega SA</h2>
+                <p class="header-pricing">$3,789</p>
+                <div class="con-button">
+                    <button class="primary-btn">Discover</button>
+                    <button class="sec-btn">Add to Cart</button>
+                </div>
+
+            </div>
+        </header>
+
+    </section>
+
+    <!--section two-->
+
+    <section class="section-two section" id="product">
+        <div class="section-two-container">
+            <div class="section-two-inner-container">
+                <div class="content">
+                    <h1 class="section-two-heading">Quartz Casio</h1>
+                   
+                    <p class="section-two-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus accusantium assumenda beatae aperiam laudantium, animi vel, optio fugit consequuntur dolorum deleniti obcaecati laboriosam, ipsa et?</p>
+                    <p class="section-two-pricing">$3,899</p>
+                    <button class="section-two-button">Order Now</button>
+                </div>
+                <div class="image-container">
+                    <img src="Watch Images/product watch.png" class="section-two-image">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--section three-->
+    <section class="section-three section" id="Arivals">
+        <h1 class="section-heading">New Arivals</h1>
+        <div class="card-container">
+            <div class="card">
+                <img src="Watch Images/Tissot.png" class="card-image" >
+                <h2>Tissot</h2>
+                <p class="card-pricing">$3.998</p>
+                <button class="sec-btn" onclick="navigateToDiscoverPage('discover.html')">Discover</button>
+            </div>
+
+            <div class="card">
+                <img src="Watch Images/Klassc.png" class="card-image" >
+                <h2>Klassc</h2>
+                <p class="card-pricing">$3.998</p>
+                <button class="sec-btn" onclick="navigateToDiscoverPage('discover.html')">Discover</button>
+            </div>
+
+            <div class="card">
+                <img src="Watch Images/citizen.png" class="card-image" >
+                <h2>citizen</h2>
+                <p class="card-pricing">$3.998</p>
+                <button class="sec-btn" onclick="navigateToDiscoverPage('discover.html')">Discover</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--section four-->
+    <section class="section-four section" id="offer">
+        <div class="section-four-container">
+            <div class="content">
+                <h1 class="section-four-offer">50% off</h1>
+                <h1 class="section-four-collection">Special Collection</h1>
+                <button class="section-four-button">Shop Now</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--section five-->
+    <section class="section-five section" id="collection">
+        <h1 class="section-heading">Collection</h1>
+        <div class="grid-card-container">
+            <div class="grid-card" collection="Rado"></div>
+            <div class="grid-card"collection="Geneve"></div>
+            <div class="grid-card"collection="Tissot"></div>
+            <div class="grid-card"collection="Cartier"></div>
+            <div class="grid-card"collection="Omega"></div>
+            <div class="grid-card"collection="Fitron"></div>
+        </div>
+    </section>
+
+    <!--footer-->
+
+    <footer>
+        <p class="footer-txt">Designed by stilo</p>
+    </footer>
+
+
+
+
+
+
+<script src="ecom.js"></script>
+</body>
+</html>
